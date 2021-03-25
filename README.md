@@ -1,28 +1,26 @@
-<img src="https://relatedcode.com/github/header14.png" width="880">
-
 ## OVERVIEW
 
-This is a native iOS Messenger app, with audio/video calls and realtime chat conversations (full offline support).
+This is a native iOS Messenger app, with audio/video calls and realtime chat conversations .
 
----
 
-<img src="https://relatedcode.com/screen56/chat03x.png" width="270">.<img src="https://relatedcode.com/screen56/call1x.png" width="270">.<img src="https://relatedcode.com/screen56/chats01x.png" width="270">
-<img src="https://relatedcode.com/screen56/settings2.png" width="270">.<img src="https://relatedcode.com/screen56/chats02.png" width="270">.<img src="https://relatedcode.com/screen56/chat07.png" width="270">
+MOTIVATION
 
----
+Atmanirbhar Bharat Abhiyan, which translates to 'self-reliant India' or 'self-sufficient India' is the vision of the Prime Minister of India Narendra Modi of making India "a bigger and more important part of the global economy", pursuing policies that are efficient, competitive and resilient, and being self-sustaining and self-generating.
+We are influenced by Modiji's Atmanirbhar Bharat Abhiyan, which focuses on promoting Indian Application, as the majority of our Indian population has WhatsApp as their primary chatting application.
+Even the majority of the application used by the Indian population for chatting is made either in the United States or in Russia.
+In the present scenario, India does not have an Application in IOS which is bug-free and provides both chatting and payment features to the user at the same time. So, we decided to build a user-friendly IOS based chatting application with UPI enabled feature in it. 
+We are creating this application to provide a better user experience.Our application provides users with rich features, the app delivers an incredible live chat experience, allowing users to share text messages, images, emoticons, stickers, audio and video clips, and other media content. The application also provides audio and video calling features which makes social interaction much easier. The ability to send numerous formats of media files among many friends as well as the capability to create personalized groups make the experience even more exciting. Also, its UPI enabled feature provides users an immediate real-time payment system that helps in instantly transferring the funds between the two bank accounts through a mobile platform.
 
-## NEW FEATURES
+FEATURES
 
+NEW FEATURES
 - CallKit support for audio and video calls
-- Database management is powered by SyncEngine
-- Works with [MessageKit](https://github.com/MessageKit/MessageKit) chat user interface
-- Uses [InputBarAccessoryView](https://github.com/nathantannar4/InputBarAccessoryView) as chat input bar
-- Supports native iOS Dark Mode
+- Database management  powered by SyncEngine
+- MessageKit chat user interface
+- InputBarAccessoryView as chat input bar
+- Native iOS Dark Mode
 
-<img src="https://relatedcode.com/github/syncengine3.png" width="880">
-
-## ADDITIONAL FEATURES
-
+ADDITIONAL FEATURES
 - Full source code is available for all features
 - Video call (in-app video calling over data connection)
 - Audio call (in-app audio calling over data connection)
@@ -30,7 +28,7 @@ This is a native iOS Messenger app, with audio/video calls and realtime chat con
 - User last active (or currently online) status info
 - Spotlight search for users
 - Media download network settings (Wi-Fi, Cellular or Manual)
-- Cache settings for media messages (automatic/manual cleanup)
+- Cache settings for media messages (automatic/manual)
 - Media message re-download option
 - Block users
 - Forward messages
@@ -38,20 +36,18 @@ This is a native iOS Messenger app, with audio/video calls and realtime chat con
 - Home screen quick actions
 - Share media message content
 
-## KEY FEATURES
-
-- Firebase Cloud Firestore backend (full realtime actions)
-- Realm Database for local data (full offline availability)
+ 
+KEY FEATURES
+- Firebase Cloud Firestore backend
+- Realm Database for local data
 - AES-256 encryption
 
-## FEATURES
-
+GENERAL FEATURES
 - Live chat between multiple devices
 - Private chat functionality
 - Group chat functionality
 - Push notification support
 - No backend programming is needed
-- Native and easy to customize user interface
 - Login with Email
 - Sending text messages
 - Sending pictures
@@ -65,9 +61,9 @@ This is a native iOS Messenger app, with audio/video calls and realtime chat con
 - Typing indicator
 - Message delivery receipt
 - Message read receipt
-- Save picture messages to device
-- Save video messages to device
-- Save audio messages to device
+- Save picture messages to the device
+- Save video messages to the device
+- Save audio messages to the device
 - Delete read and unread messages
 - Realtime conversation view for ongoing chats
 - Archived conversation view for archived chats
@@ -79,20 +75,8 @@ This is a native iOS Messenger app, with audio/video calls and realtime chat con
 - Edit Profile view for changing user details
 - Onboarding view on signup
 - Wallpaper backgrounds for Chat view
-- Privacy Policy view
-- Terms of Service view
-- Video length limit possibility
 - Copy and paste text messages
-- Arbitrary message sizes
 - Send/Receive sound effects
-- Supported devices: iPhone SE - iPhone 11 Pro Max
-
----
-
-<img src="https://relatedcode.com/screen56/addfriendsx.png" width="270">.<img src="https://relatedcode.com/screen56/chat08x.png" width="270">.<img src="https://relatedcode.com/screen56/stickersx.png" width="270">
-<img src="https://relatedcode.com/screen56/settings_cache.png" width="270">.<img src="https://relatedcode.com/screen56/settings_archive1.png" width="270">.<img src="https://relatedcode.com/screen56/chat04.png" width="270">
-
----
 
 ## REQUIREMENTS
 
@@ -100,7 +84,7 @@ This is a native iOS Messenger app, with audio/video calls and realtime chat con
 
 ## INSTALLATION
 
-**1.,** Run `pod install` first (the CocoaPods Frameworks and Libraries are not included in the repo). If you haven't used CocoaPods before, you can get started [here](https://guides.cocoapods.org/using/getting-started.html). You might prefer to use the [CocoaPods app](https://cocoapods.org/app) over the command-line tool.
+**1.,** Run `pod install`.
 
 **2.,** Create an account at [Firebase](https://firebase.google.com) and create a new project for your application.
 
@@ -114,46 +98,8 @@ This is a native iOS Messenger app, with audio/video calls and realtime chat con
 
 **7.,** Download `GoogleService-Info.plist` from your Firebase project and replace the existing file in your Xcode project.
 
-**8.,** For using push notification feature, create an account at [OneSignal](https://onesignal.com) and replace the `ONESIGNAL_APPID` define value in `AppConstant.h`. You will also need to [configure](https://documentation.onesignal.com/docs/generate-an-ios-push-certificate) your Push certificate details.
-
-**9.,** For using audio and video call features, create an account at [Sinch](https://www.sinch.com) and replace the `SINCH_KEY` and `SINCH_SECRET` define values in `AppConstant.h`. You will also need to [configure](https://developers.sinch.com/docs/how-to-use-pushkit-for-ios-voip-push-notifications) your VoIP certificate details.
-
----
-
-<img src="https://relatedcode.com/screen56/profile2.png" width="270">.<img src="https://relatedcode.com/screen56/people.png" width="270">.<img src="https://relatedcode.com/screen56/chat06.png" width="270">
-<img src="https://relatedcode.com/screen56/chat05x.png" width="270">.<img src="https://relatedcode.com/screen56/settings1x.png" width="270">.<img src="https://relatedcode.com/screen56/chats03x.png" width="270">
-
----
-
 ## CONTACT
 
-Do you have any questions or an idea? My email is info@relatedcode.com or you can find some more info at [relatedcode.com](https://relatedcode.com)
+Do you have any questions or an idea? My email is navneetgpt3636@gmail.com 
 
-## LICENSE
 
-MIT License
-
-Copyright (c) 2020 Related Code
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
----
-
-<img src="https://relatedcode.com/screen56/chat01.png" width="270">.<img src="https://relatedcode.com/screen56/call2.png" width="270">.<img src="https://relatedcode.com/screen56/profile1.png" width="270">
-<img src="https://relatedcode.com/screen56/allmediax.png" width="270">.<img src="https://relatedcode.com/screen56/picture1.png" width="270">.<img src="https://relatedcode.com/screen56/settings_status1x.png" width="270">
