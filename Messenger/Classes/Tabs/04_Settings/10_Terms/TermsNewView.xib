@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TermsNewView" customModule="app" customModuleProvider="target">
+            <connections>
+                <outlet property="webView" destination="zcd-Xd-wP3" id="Sfw-zg-jxL"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="wXu-xT-Ze8">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zcd-Xd-wP3">
+                    <rect key="frame" x="0.0" y="76" width="414" height="786"/>
+                    <color key="backgroundColor" red="0.039215686270000001" green="0.73333333329999995" blue="0.83529411760000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <wkWebViewConfiguration key="configuration">
+                        <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                        <wkPreferences key="preferences"/>
+                    </wkWebViewConfiguration>
+                </wkWebView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hl0-IW-s6y">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="77"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vz8-Rz-ZAX">
+                            <rect key="frame" x="26" y="39" width="34" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Back">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="backBtnPressed:" destination="-1" eventType="touchUpInside" id="hcA-hf-HTO"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="hl0-IW-s6y" firstAttribute="leading" secondItem="SVM-yi-ixc" secondAttribute="leading" id="0ey-BQ-V3P"/>
+                <constraint firstItem="SVM-yi-ixc" firstAttribute="bottom" secondItem="zcd-Xd-wP3" secondAttribute="bottom" id="HMG-Ay-uHA"/>
+                <constraint firstItem="zcd-Xd-wP3" firstAttribute="top" secondItem="hl0-IW-s6y" secondAttribute="bottom" constant="-1" id="Og9-Bo-IMh"/>
+                <constraint firstItem="SVM-yi-ixc" firstAttribute="trailing" secondItem="zcd-Xd-wP3" secondAttribute="trailing" id="VAy-2T-9Zd"/>
+                <constraint firstItem="zcd-Xd-wP3" firstAttribute="leading" secondItem="SVM-yi-ixc" secondAttribute="leading" id="e8e-44-aZC"/>
+                <constraint firstItem="hl0-IW-s6y" firstAttribute="trailing" secondItem="SVM-yi-ixc" secondAttribute="trailing" id="jdQ-jV-BQS"/>
+                <constraint firstItem="hl0-IW-s6y" firstAttribute="top" secondItem="wXu-xT-Ze8" secondAttribute="top" id="sD2-zi-pp5"/>
+                <constraint firstItem="zcd-Xd-wP3" firstAttribute="top" secondItem="SVM-yi-ixc" secondAttribute="top" constant="32" id="uRv-cg-mIA"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SVM-yi-ixc"/>
+            <point key="canvasLocation" x="198.55072463768118" y="85.714285714285708"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>958853572334-u5k64b19cklmog8mo7j9jri1ol6irckf.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.958853572334-u5k64b19cklmog8mo7j9jri1ol6irckf</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAYPveo1C_hf2SQiwTx6KU6ijaFvTDeWdo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>958853572334</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.raz.hifi</string>
+	<key>PROJECT_ID</key>
+	<string>chatappios-4deed</string>
+	<key>STORAGE_BUCKET</key>
+	<string>chatappios-4deed.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:958853572334:ios:ff814c201de532ddbb75ff</string>
+	<key>DATABASE_URL</key>
+	<string>https://chatappios-4deed.firebaseio.com</string>
+</dict>
+</plist>
