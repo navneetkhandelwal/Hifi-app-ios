@@ -15,10 +15,8 @@ FEATURES
 
 NEW FEATURES
 - CallKit support for audio and video calls
-- Database management  powered by SyncEngine
 - MessageKit chat user interface
 - InputBarAccessoryView as chat input bar
-- Native iOS Dark Mode
 
 ADDITIONAL FEATURES
 - Full source code is available for all features
@@ -26,10 +24,7 @@ ADDITIONAL FEATURES
 - Audio call (in-app audio calling over data connection)
 - Message queue (creating new messages while offline)
 - User last active (or currently online) status info
-- Spotlight search for users
-- Media download network settings (Wi-Fi, Cellular or Manual)
 - Cache settings for media messages (automatic/manual)
-- Media message re-download option
 - Block users
 - Forward messages
 - Mute push notifications
@@ -40,7 +35,6 @@ ADDITIONAL FEATURES
 KEY FEATURES
 - Firebase Cloud Firestore backend
 - Realm Database for local data
-- AES-256 encryption
 
 GENERAL FEATURES
 - Live chat between multiple devices
